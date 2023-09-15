@@ -5,7 +5,7 @@
             <brand>eMotionTech</brand>
             <material>Nylon</material>
             <color>Generic</color>
-            <label>Nylon 1070 - Deprecated</label>
+            <label>Nylon 1070 - deprecated</label>
         </name>
         <GUID>e8ec7612-b626-4861-af93-56549c209bad</GUID>
         <version>14</version>
@@ -25,7 +25,7 @@
         <setting key="retraction amount">2</setting>
         <setting key="build volume temperature">35</setting>
         <machine>
-            <machine_identifier manufacturer="eMotionTech" product="Strateo3D"/>
+            <machine_identifier manufacturer="eMotionTech" product="DUAL600"/>
             <hotend id="Standard 0.4" >
                 <setting key="hardware compatible">yes</setting>
                 <setting key="print temperature">250</setting>
@@ -50,6 +50,26 @@
                 <setting key="hardware compatible">yes</setting>
                 <setting key="print temperature">270</setting>
                 <setting key="retraction amount">2.7</setting>
+            </hotend>
+        </machine>
+        <machine>
+            <machine_identifier manufacturer="eMotionTech" product="IDEX420"/>
+            <machine_identifier manufacturer="eMotionTech" product="IDEX420 Duplicate"/>
+            <machine_identifier manufacturer="eMotionTech" product="IDEX420 Mirror"/>
+            <hotend id="IDEX420 Laiton 0.4" >
+                <setting key="hardware compatible">no</setting>
+                <setting key="print temperature">245</setting>
+            </hotend>
+            <hotend id="IDEX420 Laiton 0.6" >
+                <setting key="hardware compatible">no</setting>
+                <setting key="print temperature">245</setting>
+            </hotend>
+            <hotend id="IDEX420 Laiton 0.8">
+                <setting key="hardware compatible">no</setting>
+                <setting key="print temperature">245</setting>
+            </hotend>
+            <hotend id="IDEX420 Acier Durci 0.4">
+                <setting key="hardware compatible">no</setting>
             </hotend>
         </machine>
     </settings>
