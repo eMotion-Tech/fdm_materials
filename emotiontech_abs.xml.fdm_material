@@ -63,15 +63,15 @@
             <machine_identifier manufacturer="eMotionTech" product="IDEX420 Mirror"/>
             <hotend id="IDEX420 Laiton 0.4" >
                 <setting key="hardware compatible">yes</setting>
-                <setting key="print temperature">245</setting>
+                <setting key="print temperature">225</setting>
             </hotend>
             <hotend id="IDEX420 Laiton 0.6" >
                 <setting key="hardware compatible">yes</setting>
-                <setting key="print temperature">245</setting>
+                <setting key="print temperature">227</setting>
             </hotend>
             <hotend id="IDEX420 Laiton 0.8">
                 <setting key="hardware compatible">yes</setting>
-                <setting key="print temperature">245</setting>
+                <setting key="print temperature">230</setting>
             </hotend>
             <hotend id="IDEX420 Acier Durci 0.4">
                 <setting key="hardware compatible">no</setting>
