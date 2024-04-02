@@ -57,6 +57,33 @@
                 <setting key="retraction amount">1.3</setting>
             </hotend>
         </machine>
+        <machine>
+            <machine_identifier manufacturer="eMotionTech" product="DUAL600-D"/>
+            <hotend id="DUAL600-D Laiton 0.4" >
+                <setting key="hardware compatible">yes</setting>
+                <setting key="print temperature">240</setting>
+            </hotend>
+            <hotend id="DUAL600-D Laiton 0.6" >
+                <setting key="hardware compatible">yes</setting>
+                <setting key="print temperature">245</setting>
+            </hotend>
+            <hotend id="DUAL600-D Laiton 0.8">
+                <setting key="hardware compatible">yes</setting>
+                <setting key="print temperature">250</setting>
+            </hotend>
+			<hotend id="DUAL600-D Acier Durci 0.4">
+                <setting key="hardware compatible">no</setting>
+                <setting key="print temperature">240</setting>
+            </hotend>
+            <hotend id="DUAL600-D Acier Durci 0.6">
+                <setting key="hardware compatible">no</setting>
+                <setting key="print temperature">245</setting>
+            </hotend>
+            <hotend id="DUAL600-D Acier Durci 0.8">
+                <setting key="hardware compatible">no</setting>
+                <setting key="print temperature">250</setting>
+            </hotend>
+        </machine>
 		<machine>
             <machine_identifier manufacturer="eMotionTech" product="IDEX420"/>
             <machine_identifier manufacturer="eMotionTech" product="IDEX420 Duplicate"/>
